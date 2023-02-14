@@ -1,9 +1,8 @@
 var buttone = document.getElementById("btn");
-var pTag = document.getElementById("num");
+
 var input;
 var RanNo
-var respo = document.getElementById("respond");
-var inputValue= document.getElementById("guess").value;
+
 
 function generateRandomValue(){
 	RanNo= Math.floor(Math.random()*41)-20;
