@@ -1,11 +1,10 @@
 var buttone = document.getElementById("btn");
-
 var input;
 var RanNo
 
 
 function generateRandomValue(){
-	RanNo= Math.floor(Math.random()*41)-20;
+	RanNo= Math.floor(Math.random()* 41)-20;
 	document.getElementById("num").innerText =RanNo;
 	getGuess();
 	result();
